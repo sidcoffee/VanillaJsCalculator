@@ -1,3 +1,40 @@
 body{
 background-color:#ffffff;
 }
+.wrapper{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.inputBox{
+    background:#000000;
+    text-align:right;
+    
+    height:50px;
+    width:403px;
+    color:#ffffff;
+}
+.buttonBox{
+    display:flex;
+}
+.buttonInd{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+     width:99px;
+    height:50px;
+    background-color:#ccc;
+    border:1px solid#fff;
+    color:#fff;
+}
+.operator{
+    background-color:#ff9800;
+}
+.clearBox{
+background-color:#e81d27;
+justify-content: center;
+color:#fff;
+align-items: center;
+display:flex;
+height:50px;
+}
